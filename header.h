@@ -33,9 +33,9 @@ typedef int t_bool;
 // высота карты
 #define MAP_H 30
 // ширина карты
-#define MAP_W 30
+#define MAP_W (MAP_H)
 // радиус обучения
-#define MAP_RAD 3.3
+#define MAP_RAD (MAP_W / 3)
 // Число нейронов в скрытом слое
 #define N_HIDDEN (MAP_W * MAP_H)
 // Скорость обучения
